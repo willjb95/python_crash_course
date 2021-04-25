@@ -18,4 +18,7 @@ print(months_of_year[-1])
 print(months_of_year[-2])
 
 ## USING INDIVIDUAL VALUES FROM A LIST ##
-# you can use individual values from a list as you would 
+# you can use individual values from a list as you would any other variable, example you can use f-strings to create a message based on a value from a list
+message = f"Williams birthday month is {months_of_year[7].title()}"
+print(message)
+# we buiuld a sentance using the value month_of_year[7] and assign it to the variable message
