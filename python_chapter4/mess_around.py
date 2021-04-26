@@ -21,3 +21,11 @@ print(sum(power_three))
 nine_times = [value*9 for value in range(1,20)]
 print(nine_times)
 
+nine9 = list(range(0,200,9))
+print(nine9)
+
+city = ['cambridge', 'manchester', 'london', 'oxford', 'lincoln', 'liverpool']
+city_been = city[0:5:2]
+print("These are the cities I have visited:")
+for city_beens in city_been:
+    print(city_beens)
