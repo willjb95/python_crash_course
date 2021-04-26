@@ -1,9 +1,13 @@
 names = ['william', 'edward', 'john', 'harriet', 'elaine']
-print(names[0])
-print(names[1])
-print(names[2])
-print(names[3])
-print(names[4])
+## UPDATING THIS AFTER READING CHAPTER 4 ##
+# depreciated 
+# print(names[0])
+# print(names[1])
+# print(names[2])
+# print(names[3])
+# print(names[4])
+for name in names:
+    print(name)
 
 msg_w = f"Hello {names[0]}, I hope you are well"
 msg_e = f"Hello {names[1]}, I hope you are well"
