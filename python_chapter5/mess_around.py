@@ -3,6 +3,8 @@ banned_users =['tom', 'lewis', 'harry']
 
 if banned_users not in users:
     print(f"Sorry {banned_users}, you are still banned.")
-    else:
-        print(f"\nHi {users}, you are still active.")
+else:
+    print(f"\nGood job {users}, you are still active")
+
+
 
