@@ -97,3 +97,23 @@ elif age_0 >65:
 # the else block matches any condition that wasn't matched by a specific it or elif and that can
 # sometimes include invalid or even harmful data. if you have a specific final condition in mind
 # consider using the final elif block and omit the else block 
+
+## TESTING MULTIPLE CONDITIONS ##
+# the if-elif-else chain is powerful but its only appropriate and efficient to use when you just need one test
+# to pass. if you wanted to check all conditions you can use a series of if statements with no elif or else.
+# you would use this if all conditions were True
+requested_toppings = ['cheese', 'pepperoni', 'mushroom']
+
+if 'cheese' in requested_toppings:
+    print("Cheese is being added.")
+if 'pepper' in requested_toppings:
+    print("Pepper is being added.")
+if 'pepperoni' in requested_toppings:
+    print("Pepperoni is being added")
+
+print("Your pizza is all done")
+# we start by creating our list of toppings stored in variable "requested_toppings". the if statements then
+# check to see whether the person requested the toppings provided and if True then a messaged would be printed
+# there are no else or elif because we want it to run regardless of whether the previous test passed.
+
+

@@ -91,7 +91,8 @@ age_1 = 25
 # its important to check whether a list contains a certain value before taking action for ecample you 
 # might want to check if a new username already exists in a list of current usernames before completing
 requested_drinks = ['coke', 'pepsi', 'sprite']
-'pepsi' in requested_drinks
+if 'pepsi' in requested_drinks:
+    print("true")
 # This would print true because the value pepsi is in the list 
 
 ## CHECKING WHETHER A VALUE IS NOT IN A LIST ##
