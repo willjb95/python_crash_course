@@ -19,10 +19,11 @@ group_0s = ['cathy', 'BETH', 'sam',
 group_1s = ['bard', 'beth', 'lenny', 
             'simon', 'kurt', 'SAM']
 
-group_1_lower = [person.lower() for person in group_0s] # "person.lower()" can be any word e.g user 
+group_0_lower = [group.lower() for group in group_0s] # "group.lower()" can be any word e.g user, person
+                                                      # we have created a new list which will replace group_0s
 
 for group_1 in group_1s: # here we choose group_1 as the list we want to loop 
-    if group_1.lower() in group_1_lower: 
+    if group_1.lower() in group_0_lower: # instead of writing group_0s we now write group_0_lower
         print(f"{group_1.title()} is taken")
     else:
         print(f"{group_1.title()} is not taken")
