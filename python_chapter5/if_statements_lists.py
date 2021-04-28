@@ -24,7 +24,7 @@ print(f"Your Pizza is complete!")
 # this time we checked each requested item before adding it. the else block ensures all other
 # toppings are added.
 
-## CHECKING A LIST THAT IS NOT EMPTY ##
+## CHECKING A LIST THAT IS EMPTY ##
 # so far we've assumed each list has had at least one item in the list. what if the users provide
 # the information thats stored in a list? we won't be able to assume anymore. in this case its helpful 
 # to check if the list has any items stored. 
