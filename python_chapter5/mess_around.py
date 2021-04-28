@@ -19,7 +19,7 @@ group_0s = ['cathy', 'BETH', 'sam',
 group_1s = ['bard', 'beth', 'lenny', 
             'simon', 'kurt', 'SAM']
 
-group_0_lower = [group.lower() for group in group_0s] # "group.lower()" can be any word e.g user, person
+group_0_lower = [group.lower() for group in group_0s] # "group" can be any relevent word e.g user, person
                                                       # we have created a new list which will replace group_0s
 
 for group_1 in group_1s: # here we choose group_1 as the list we want to loop 
