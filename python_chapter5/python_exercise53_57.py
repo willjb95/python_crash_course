@@ -61,7 +61,7 @@ fav_fruits = ['bananas', 'apples', 'oranges']
 if 'bananas' in fav_fruits:
     print("Bananas are your favorite.")
 if 'grapes' in fav_fruits:
-    Print("Grapes are your favorite.")
+    print("Grapes are your favorite.")
 if 'apples' in fav_fruits:
     print("Apples are your favorites.")
 if 'peaches' in fav_fruits:
