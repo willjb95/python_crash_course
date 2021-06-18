@@ -28,6 +28,15 @@ for group_1 in group_1s: # here we choose group_1 as the list we want to loop
     else:
         print(f"{group_1.title()} is not taken")
 
+# going over what ive learned 
+
+a, b, cs, = 5, 10, 20
+
+memberships = ['kids', 'adults', 'elderly']
+
+for membership in memberships:
+    if 
+
 
 
 
