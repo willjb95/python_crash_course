@@ -21,7 +21,7 @@ print(poi)
 # using sort() with reverse=True changes the list so its in reversed alphabetical order 
 
 # Q: working with the program from exercise 3-4 to 3-7, use the len() to print a message indicationg the number of people i am inviting
-guest_list = ['edward', 'john','hannah']
+guest_list = ['edward', 'john','hannah', 'elaine']
 guest_size = (len(guest_list))
 print(f"This is how many guests have I invited to my dinner: {guest_size}.")
 # I have copied my guest list over and created a variable guest_size to store the lens() of the guest list, then i print a message with said variable in
