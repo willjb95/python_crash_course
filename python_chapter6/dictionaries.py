@@ -74,7 +74,11 @@ print(f"This alien is now color {alien_0['color']}")
 # a more interesting example could be tracking the position of an alien that can
 # move at different speeds. we will store the value representing the current speed
 # and use it to determine how far to the right it should go
-alien_0 = {'x-position': 0, 'y-position': 25, 'speed': 'medium'}
+alien_0 = {
+    'x-position': 0,
+    'y-position': 25, 
+    'speed': 'medium'
+    }
 print(f"Original position: {alien_0['x-position']}")
 
 # Move alien to the right
@@ -101,3 +105,38 @@ print(f"New position: {alien_0['x-position']}")
 # you can change the overall behavious which is pretty intereting.
 
 ## REMOVING KEY-VALUE PAIRS ## 
+# you can use the del statement to completely remove a key-value
+# all you need is the dictionary and key you want to del
+alien_0['points'] = 100
+print(alien_0)
+del alien_0['points']
+print(alien_0)
+# as you can see we added a new key value 'points' to our 
+# dictionary and used the del statement followed by dictionary 
+# name and key and printed each out 
+
+## A DICTIONARY OF SIMILAR OBJECTS ##
+# previous examples have all been different kinds of information
+# about one object. you can use them to store info about 
+# many objects, say you want to poll people and ask them thier 
+# favorutite programming language. a dictionary is useful 
+# for storing the results like this 
+favorite_language = {
+    'sam': 'python',
+    'mike': 'c',
+    'susan': 'python',
+    'lara': 'ruby'
+    }
+# this dictionary is quite large so we've broken it into 
+# several lines. each key is the name of the person asked 
+# and the value is which programming lanague they chose 
+
+## USING GET() TO ACCESS VALUE ##
+# using keys in square brackets to retrieve a value can 
+# cause you to get an error if that value doesnt exist 
+# you can use the get() method to set a defualt value
+# that is returned if requested key doesnt exist 
+point_value = alien_0.get('points', 'No points assigned')
+print(point_value)
+# if theres a chance that the key you are asking for might 
+# not exist then perhaps use the get() method
